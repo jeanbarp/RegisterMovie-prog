@@ -1,0 +1,9 @@
+
+create database crudgame;
+
+create table games (id integer primary key AUTO_INCREMENT,
+name varchar(100),
+cost float,
+category varchar(100));
+
+
